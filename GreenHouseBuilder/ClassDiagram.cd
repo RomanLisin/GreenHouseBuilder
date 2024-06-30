@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Greenhouse">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAABAAAAAAEAAAAAIAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>main.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenhouseBuilder">
+    <Position X="3.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAJAAAAAAAAAAAAQAAAQAA=</HashCode>
+      <FileName>main.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TomatoGreenhouseBuilder">
+    <Position X="4.5" Y="3.25" Width="2.25" />
+    <AssociationLine Name="greenhouse" Type="Greenhouse" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.625" Y="5.829" />
+        <Point X="5.625" Y="6.475" />
+        <Point X="8.062" Y="6.475" />
+        <Point X="8.062" Y="5.824" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.05" Y="0.225" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAAABAAAAAgAAAALAAAAAAAAAAAAQAAAQAA=</HashCode>
+      <FileName>main.cpp</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="greenhouse" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CucumberGreenhouseBuilder">
+    <Position X="1.25" Y="3.25" Width="2.5" />
+    <AssociationLine Name="greenhouse" Type="Greenhouse" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.438" Y="5.829" />
+        <Point X="2.438" Y="6.891" />
+        <Point X="8.438" Y="6.891" />
+        <Point X="8.438" Y="5.824" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.015" Y="0.237" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAgAAAABAAAAAAAAAALAAAAAAAgAAAAQAAAQAA=</HashCode>
+      <FileName>main.cpp</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="greenhouse" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Director">
+    <Position X="6.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAACAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>main.cpp</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="builder" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
